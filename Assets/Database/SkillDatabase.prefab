@@ -1,0 +1,137 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 400000}
+  - component: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: SkillDatabase
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 115.678925, y: 1.1060872, z: 173.92093}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f65b536e9d004d44a9b0adb46a082181, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  skill:
+  - skillName: 
+    icon: {fileID: 0}
+    iconSprite: {fileID: 0}
+    iconDown: {fileID: 0}
+    description: 
+    skillPrefab: {fileID: 0}
+    skillAnimation: {fileID: 0}
+    manaCost: 10
+    cantStack: 0
+  - skillName: Firebolt
+    icon: {fileID: 2800000, guid: 07fcc9f229e28f045a77827dc2ff52da, type: 3}
+    iconSprite: {fileID: 21300000, guid: 07fcc9f229e28f045a77827dc2ff52da, type: 3}
+    iconDown: {fileID: 2800000, guid: dccfe21e8a5ffdb439bf1776f4b622ea, type: 3}
+    description: Cast Firebolt to attack enemy
+    skillPrefab: {fileID: 400004, guid: 670bbeae4ea747e4880c7906fd3c4175, type: 3}
+    skillAnimation: {fileID: 7400014, guid: b3b4fffdc59f44847aec77c1d90e8ce3, type: 3}
+    manaCost: 10
+    cantStack: 0
+  - skillName: Flame Shield
+    icon: {fileID: 2800000, guid: 59dae0054ddf60445a541e83382ee5f3, type: 3}
+    iconSprite: {fileID: 21300000, guid: 59dae0054ddf60445a541e83382ee5f3, type: 3}
+    iconDown: {fileID: 2800000, guid: 51c23bd103e8bd145869ae2ededc385a, type: 3}
+    description: Protect the caster with flame shield
+    skillPrefab: {fileID: 400004, guid: 7e1097b84a54e1f43b9a86c7a302a864, type: 3}
+    skillAnimation: {fileID: 7400014, guid: b3b4fffdc59f44847aec77c1d90e8ce3, type: 3}
+    manaCost: 35
+    cantStack: 1
+  - skillName: Ground Crush
+    icon: {fileID: 2800000, guid: 730a0b54e6b9d61409e58cd207984aea, type: 3}
+    iconSprite: {fileID: 21300000, guid: 730a0b54e6b9d61409e58cd207984aea, type: 3}
+    iconDown: {fileID: 2800000, guid: 3e8e77cc6bc8e17419eed39b57d97fa3, type: 3}
+    description: Damage all enemy around you
+    skillPrefab: {fileID: 400002, guid: fdbdf29d695b45944a71a044b57c92cc, type: 3}
+    skillAnimation: {fileID: 7400028, guid: b3b4fffdc59f44847aec77c1d90e8ce3, type: 3}
+    manaCost: 29
+    cantStack: 0
+  - skillName: Heal
+    icon: {fileID: 2800000, guid: f7e889b0a0892a944897e004b4a9c25f, type: 3}
+    iconSprite: {fileID: 21300000, guid: f7e889b0a0892a944897e004b4a9c25f, type: 3}
+    iconDown: {fileID: 2800000, guid: bd673b04a257cf149a0eaa9718385b56, type: 3}
+    description: Restore HP
+    skillPrefab: {fileID: 400000, guid: 029c7e98e5fdbb74fa0ebaa3089c1305, type: 3}
+    skillAnimation: {fileID: 7400014, guid: b3b4fffdc59f44847aec77c1d90e8ce3, type: 3}
+    manaCost: 25
+    cantStack: 0
+  - skillName: Brave
+    icon: {fileID: 2800000, guid: ed2531cca51fb43449046577259e86f6, type: 3}
+    iconSprite: {fileID: 21300000, guid: ed2531cca51fb43449046577259e86f6, type: 3}
+    iconDown: {fileID: 2800000, guid: 5bd6b33faabeefe4f90bdd45697af5c9, type: 3}
+    description: Restore HP
+    skillPrefab: {fileID: 400000, guid: 768d6ed7f6e009145b3e97b0d463aec3, type: 3}
+    skillAnimation: {fileID: 7400014, guid: b3b4fffdc59f44847aec77c1d90e8ce3, type: 3}
+    manaCost: 20
+    cantStack: 0
+  - skillName: Barrier
+    icon: {fileID: 2800000, guid: 69cd13271e02f9248b2e0d57887d90c2, type: 3}
+    iconSprite: {fileID: 21300000, guid: 69cd13271e02f9248b2e0d57887d90c2, type: 3}
+    iconDown: {fileID: 2800000, guid: 51ae935f14c4da14a8b6181f229215cc, type: 3}
+    description: Restore HP
+    skillPrefab: {fileID: 400000, guid: e989b22eb813a9c4d87bc72cfe76f709, type: 3}
+    skillAnimation: {fileID: 7400014, guid: b3b4fffdc59f44847aec77c1d90e8ce3, type: 3}
+    manaCost: 20
+    cantStack: 0
+  - skillName: Faith
+    icon: {fileID: 2800000, guid: 2f75a30a870a8d64fbf889d741c5f1f9, type: 3}
+    iconSprite: {fileID: 21300000, guid: 2f75a30a870a8d64fbf889d741c5f1f9, type: 3}
+    iconDown: {fileID: 2800000, guid: 1e761d7724770a44baa2db72d64c7352, type: 3}
+    description: Restore HP
+    skillPrefab: {fileID: 400000, guid: 6e6a522abd5060247bf08bc37745002a, type: 3}
+    skillAnimation: {fileID: 7400014, guid: b3b4fffdc59f44847aec77c1d90e8ce3, type: 3}
+    manaCost: 20
+    cantStack: 0
+  - skillName: Magic Barrier
+    icon: {fileID: 2800000, guid: b46b435affb179b40a7a2ea92a0e284f, type: 3}
+    iconSprite: {fileID: 21300000, guid: b46b435affb179b40a7a2ea92a0e284f, type: 3}
+    iconDown: {fileID: 2800000, guid: a886d41466c346743815b4ddaa814729, type: 3}
+    description: Restore HP
+    skillPrefab: {fileID: 400000, guid: 9a0f189e05291114e912243813012d0c, type: 3}
+    skillAnimation: {fileID: 7400014, guid: b3b4fffdc59f44847aec77c1d90e8ce3, type: 3}
+    manaCost: 20
+    cantStack: 0
+  - skillName: Poison Mist
+    icon: {fileID: 2800000, guid: d1f1426cd1d4352469f3e543bdc8b117, type: 3}
+    iconSprite: {fileID: 21300000, guid: d1f1426cd1d4352469f3e543bdc8b117, type: 3}
+    iconDown: {fileID: 2800000, guid: 997ad3986e8175a45b5293f2d1730472, type: 3}
+    description: Restore HP
+    skillPrefab: {fileID: 4764882290870210, guid: 900cc7eec3949534c82c7887aa7bdcee, type: 3}
+    skillAnimation: {fileID: 7400014, guid: b3b4fffdc59f44847aec77c1d90e8ce3, type: 3}
+    manaCost: 30
+    cantStack: 0

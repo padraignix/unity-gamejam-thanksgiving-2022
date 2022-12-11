@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 0db3658c5450fad4cb25b12b6496f424
+timeCreated: 1487093747
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - player: {instanceID: 0}
+  - moneyText: {instanceID: 0}
+  - weaponIcons: {instanceID: 0}
+  - armorIcons: {instanceID: 0}
+  - database: {fileID: 100000, guid: e769377282da787438841aa933446662, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: bcc83fbc8447ebf4f8fd8dff2492a4f2
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - questData: {fileID: 100000, guid: 007024c31936599418ee61a698a689d3, type: 2}
+  - button: {fileID: 2800000, guid: 89fe4f5db4b0bec4190792cd13548ed5, type: 3}
+  - textWindow: {fileID: 2800000, guid: d742dc22e7e604243a6d161f087dd9ef, type: 3}
+  - spawnPrefabWhenAccept: {instanceID: 0}
+  - spawnPoint: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 

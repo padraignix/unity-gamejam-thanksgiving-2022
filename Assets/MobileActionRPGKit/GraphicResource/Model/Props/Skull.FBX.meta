@@ -1,0 +1,136 @@
+fileFormatVersion: 2
+guid: 1d0142092627c054c87eb70f2e9c2308
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: Cylinder01
+    100002: //RootNode
+    100004: Skull
+    100006: Sky01
+    100008: VisualSceneNode1
+    100010: VisualSceneNode10
+    100012: VisualSceneNode11
+    100014: VisualSceneNode12
+    100016: VisualSceneNode13
+    100018: VisualSceneNode14
+    100020: VisualSceneNode15
+    100022: VisualSceneNode16
+    100024: VisualSceneNode17
+    100026: VisualSceneNode18
+    100028: VisualSceneNode19
+    100030: VisualSceneNode2
+    100032: VisualSceneNode20
+    100034: VisualSceneNode21
+    100036: VisualSceneNode22
+    100038: VisualSceneNode23
+    100040: VisualSceneNode24
+    100042: VisualSceneNode25
+    100044: VisualSceneNode26
+    100046: VisualSceneNode27
+    100048: VisualSceneNode28
+    100050: VisualSceneNode29
+    100052: VisualSceneNode3
+    100054: VisualSceneNode30
+    100056: VisualSceneNode31
+    100058: VisualSceneNode4
+    100060: VisualSceneNode5
+    100062: VisualSceneNode6
+    100064: VisualSceneNode7
+    100066: VisualSceneNode8
+    100068: VisualSceneNode9
+    400000: Cylinder01
+    400002: //RootNode
+    400004: Skull
+    400006: Sky01
+    400008: VisualSceneNode1
+    400010: VisualSceneNode10
+    400012: VisualSceneNode11
+    400014: VisualSceneNode12
+    400016: VisualSceneNode13
+    400018: VisualSceneNode14
+    400020: VisualSceneNode15
+    400022: VisualSceneNode16
+    400024: VisualSceneNode17
+    400026: VisualSceneNode18
+    400028: VisualSceneNode19
+    400030: VisualSceneNode2
+    400032: VisualSceneNode20
+    400034: VisualSceneNode21
+    400036: VisualSceneNode22
+    400038: VisualSceneNode23
+    400040: VisualSceneNode24
+    400042: VisualSceneNode25
+    400044: VisualSceneNode26
+    400046: VisualSceneNode27
+    400048: VisualSceneNode28
+    400050: VisualSceneNode29
+    400052: VisualSceneNode3
+    400054: VisualSceneNode30
+    400056: VisualSceneNode31
+    400058: VisualSceneNode4
+    400060: VisualSceneNode5
+    400062: VisualSceneNode6
+    400064: VisualSceneNode7
+    400066: VisualSceneNode8
+    400068: VisualSceneNode9
+    2300000: Cylinder01
+    2300002: Skull
+    3300000: Cylinder01
+    3300002: Skull
+    4300000: Skull
+    4300002: Cylinder01
+    11100000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  additionalBone: 0
+  userData: 

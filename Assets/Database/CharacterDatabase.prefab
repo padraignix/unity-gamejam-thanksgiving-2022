@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &110298
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 463484}
+  - component: {fileID: 11483922}
+  m_Layer: 0
+  m_Name: CharacterDatabase
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &463484
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 110298}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.547411, y: 0.079481244, z: -3.1797814}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &11483922
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 110298}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df88cee57e53c894ba3fc0cef2ea94e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player:
+  - playerName: Fighter
+    playerPrefab: {fileID: 100144, guid: c2ed9e80b4cbdc547a49d66fd72f842e, type: 3}
+    characterSelectModel: {fileID: 100318, guid: ec48317600b0e064f9619ebdd8b7225e, type: 3}
+    description:
+      textLine1: Fighter
+      textLine2: The Fighter is a powerful woman warrior.
+      textLine3: She is also adept in the use of Physic
+      textLine4: and Magic skill.
+    guiDescription: {fileID: 0}
+  - playerName: Rogue
+    playerPrefab: {fileID: 181962, guid: 812a4be2fae721649b4326e3abaa0b29, type: 3}
+    characterSelectModel: {fileID: 177184, guid: 22cc53fd31af4294d9f1e84188f0583f, type: 3}
+    description:
+      textLine1: Rogue
+      textLine2: The Rogue is mercenary who hired to fight
+      textLine3: the demons. She has 50% Poison resist.
+      textLine4: But also weak to fire attack.
+    guiDescription: {fileID: 0}

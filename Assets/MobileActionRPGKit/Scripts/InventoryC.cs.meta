@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: ec7993fcf00a5834a8b0560343695851
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - player: {instanceID: 0}
+  - database: {fileID: 100000, guid: e769377282da787438841aa933446662, type: 2}
+  - fistPrefab: {fileID: 100000, guid: 42ebea80e0c1982488dcdb93d863de6f, type: 2}
+  - skin: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 

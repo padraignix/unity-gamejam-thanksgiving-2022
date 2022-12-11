@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 2d7e6320bed48684f94ae31903dfb979
+timeCreated: 1457898249
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - tip: {instanceID: 0}
+  - characterDatabase: {fileID: 110298, guid: 0bcff67d3626b714ea6feb751928ef57, type: 2}
+  - modelPosition: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
